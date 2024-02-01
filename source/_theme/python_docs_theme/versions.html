@@ -1,0 +1,14 @@
+{% if theme_versionhash|tobool %}
+  Current stable release is {{ theme_versionhash['latest'] }}
+  {% if release != 'latest' %}
+     <br/> <span style="background-color:pink;font-weight:bold">This is {{ theme_versionhash[release] }}</span>
+  {% endif %}
+  <br/>
+  <select class="version-selector">
+  {% for key, value in theme_versionhash.items() %}
+    <option value="{{ key|e }}" {% if key == release %}selected{% endif %}>
+      {{ value }}
+    </option>
+  {% endfor %}
+  </select>
+{% endif %}

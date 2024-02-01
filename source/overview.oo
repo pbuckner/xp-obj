@@ -1,0 +1,53 @@
+* Aircraft
+** Plane Maker
+*** Set size/shape
+*** Set number and type of wings, engines, landing gear
+*** Simple "paint" of exterior
+*** 2D cockpit
+*** set points for ground traffice services
+*** Attach objects for 3d cockpit
+*** Attach objects for visual enhancment
+** Airfoil Maker
+** Flight Model Theory
+   Descriptions / explanations by Austin
+* Scenery
+** WED
+*** Airports / Heliports
+**** Draw runways / taxiways
+**** Attach objects (buildings, cars, trashcans)
+**** Gateway & Scenery Bug Database
+*** Landmarks
+**** Attach objects (buildings, cars, trashcans)
+** Road / Rail network
+** Ortho
+** Autogens
+** Object Libraries
+* Objects
+** Modelling Plugins
+** Attributes
+** Animations
+** ObjView
+
+* SDK
+** plugin architecture
+** read/write Datarefs
+** execute Commands
+* DataRefs
+** DataRefEditor
+** Descriptive
+*** Current Weather
+**** XP weather "theory"
+*** Current Flight Info
+*** Current Aircraft (number of batteries, COG)
+** Manipulative
+*** Changeable status of things (gear, electricaly...
+* Commands
+
+...
+FMOD Sound
+ATC
+Weather
+NavData
+Networking with other apps (broadcast / UDP)
+FDR files
+FMS files
